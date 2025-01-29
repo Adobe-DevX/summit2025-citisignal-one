@@ -673,6 +673,19 @@
     ]
   },
   {
+    "id": "commerce-login",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Login",
+        "readOnly": true
+      }
+    ]
+  },
+  {
     "id": "commerce-checkout",
     "fields": [
       {
