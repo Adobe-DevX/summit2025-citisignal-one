@@ -697,7 +697,8 @@
         "readOnly": true
       }
     ]
-  },{
+  },
+  {
     "id": "commerce-customer-information",
     "fields": [
       {
@@ -706,6 +707,19 @@
         "name": "placeholder",
         "label": "Placeholder",
         "value": "No configs for Commerce Customer Information",
+        "readOnly": true
+      }
+    ]
+  },
+  {
+    "id": "commerce-account-sidebar",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Account Sidebar",
         "readOnly": true
       }
     ]
