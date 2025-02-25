@@ -34,8 +34,12 @@
       "commerce-cart",
       "commerce-checkout",
       "commerce-order-confirmation",
-      "commerce-customer-information",
       "commerce-account-sidebar",
+      "commerce-account-header",
+      "commerce-orders-list",
+      "commerce-addresses",
+      "commerce-customer-information",
+      "commerce-returns-list",
       "columnsjo"
     ]
   },

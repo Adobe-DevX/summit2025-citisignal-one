@@ -699,6 +699,57 @@
     ]
   },
   {
+    "id": "commerce-account-sidebar",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Account Sidebar",
+        "readOnly": true
+      }
+    ]
+  },{
+    "id": "commerce-account-header",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Account Header",
+        "readOnly": true
+      }
+    ]
+  },
+  {
+    "id": "commerce-orders-list",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Orders List",
+        "readOnly": true
+      }
+    ]
+  },
+  {
+    "id": "commerce-addresses",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Addresses",
+        "readOnly": true
+      }
+    ]
+  },
+  {
     "id": "commerce-customer-information",
     "fields": [
       {
@@ -712,14 +763,14 @@
     ]
   },
   {
-    "id": "commerce-account-sidebar",
+    "id": "commerce-returns-list",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
         "name": "placeholder",
         "label": "Placeholder",
-        "value": "No configs for Commerce Account Sidebar",
+        "value": "No configs for Commerce Returns List",
         "readOnly": true
       }
     ]
