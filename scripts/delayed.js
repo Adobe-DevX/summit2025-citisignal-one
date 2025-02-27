@@ -30,7 +30,7 @@ if (getConsent('commerce-collection')) {
 
   window.adobeDataLayer.push(
     { storefrontInstanceContext: config },
-    { eventForwardingContext: { commerce: true, aep: false } },
+    { eventForwardingContext: { commerce: true, aep: true } },
   );
 
   // Load events SDK and collector
