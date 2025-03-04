@@ -831,7 +831,8 @@
               }
             }
           }
-        }{
+        },
+        {
           "title": "Commerce Create Account",
           "id": "commerce-create-account",
           "plugins": {
