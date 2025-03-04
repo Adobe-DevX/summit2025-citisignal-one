@@ -789,6 +789,19 @@
     ]
   },
   {
+    "id": "commerce-create-account",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "label": "Placeholder",
+        "value": "No configs for Commerce Create Account",
+        "readOnly": true
+      }
+    ]
+  },
+  {
     "id": "columns-text",
     "fields": [
       {
