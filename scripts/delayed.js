@@ -26,10 +26,13 @@ if (getConsent('commerce-collection')) {
     baseCurrencyCode: await getConfigValue('commerce-base-currency-code'),
     storeViewCurrencyCode: await getConfigValue('commerce-base-currency-code'),
     storefrontTemplate: 'Franklin',
+    datastreamId: '9e468870-d200-4018-923d-9e64dc01e0d5',
+    imsOrgId: 'F5D946765D932A520A495C18@AdobeOrg',
   };
 
   window.adobeDataLayer.push(
     { storefrontInstanceContext: config },
+    { aepContext: { datastreamId: config.datastreamId, imsOrgId: config.imsOrgId } },
     { eventForwardingContext: { commerce: true, aep: true } },
   );
 
