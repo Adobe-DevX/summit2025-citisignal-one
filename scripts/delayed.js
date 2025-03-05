@@ -31,6 +31,7 @@ if (getConsent('commerce-collection')) {
 
   window.adobeDataLayer.push(
     { storefrontInstanceContext: config },
+    { aepContext: { datastreamId: config.datastreamId } },
     { eventForwardingContext: { commerce: true, aep: true } },
   );
 
