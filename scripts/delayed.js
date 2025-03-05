@@ -26,6 +26,7 @@ if (getConsent('commerce-collection')) {
     baseCurrencyCode: await getConfigValue('commerce-base-currency-code'),
     storeViewCurrencyCode: await getConfigValue('commerce-base-currency-code'),
     storefrontTemplate: 'Franklin',
+    datastreamId: '9e468870-d200-4018-923d-9e64dc01e0d5',
   };
 
   window.adobeDataLayer.push(
